@@ -61,7 +61,7 @@ pv_scape/
 ├─ arcgis_to_gpkg.py                                                    # (arcpy required) Preprocess bridge script to export input feature class from Esri ArcGIS File Geodatabase to opensource GeoPackage
 ├─ PV_SCAPE_merge_outputs.py                                            # (opensource) Postprocess merging the GeoPackage feature classes into a new GeoPackage single feature class
 ├─ PV_SCAPE_postprocess_spatial_attribution.ipynb                       # (opensource) Postprocess to enrich the PV_SCAPE output in prep for aggregate feasibility analysis
-├─ solar_feasibility_structured_v7.ipynb                                # (opensource) Postprocess plotting of outputs (capacity and energy per area)
+├─ PV_SCAPE_feasibility_analysis.ipynb                                # (opensource) Postprocess plotting of outputs (capacity and energy per area)
 ├─ gpkg_to_arcgis.py                                                    # (arcpy required) Postprocess bridge script to export final feature class back to Esri ArcGIS File Geodatabase from opensource GeoPackage
 │
 ├─ ARCPY_LCS_overlap_summary_stats.ipynb                                # (arcpy required) Helper to assign WSU Least Conflict Solar values to input features
